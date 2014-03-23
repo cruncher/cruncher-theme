@@ -1,0 +1,21 @@
+{
+  "name": "cruncher",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cruncher theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crucnher/cruncher-theme"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "readme": "# Cruncher theme\n\nCruncher syntax theme for Atom.",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cruncher/cruncher-theme/issues"
+  },
+  "homepage": "https://github.com/cruncher/cruncher-theme"
+}

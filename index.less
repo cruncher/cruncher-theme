@@ -1,0 +1,145 @@
+.editor {
+  .wrap-guide {
+    background: rgba(182, 178, 176, 0.15);
+  }
+
+  .indent-guide {
+    color: rgba(182, 178, 176, 0.15);
+  }
+
+  &, .gutter {
+    background-color: #212527;
+    color: #B6B2B0;
+
+    .line-number {
+      opacity: 1;
+      color: #918E8D;
+
+      &.git-line-added {
+        border-left: 2px solid #529b2f;
+      }
+
+      &.git-line-modified {
+        border-left: 2px solid #ffd569;
+      }
+
+      &.git-line-removed {
+        border-left: 2px solid #945051;
+      }
+    }
+  }
+
+  &.is-focused .cursor {
+    border-color: #F8F8F0;
+  }
+
+  &.is-focused .selection .region {
+    background-color: #49483E;
+  }
+
+  &.is-focused .line-number.cursor-line-no-selection {
+    background-color: #49483E;
+  }
+
+  .invisible-character {
+    color: rgba(182, 178, 176, 0.15);
+  }
+
+  .comment {
+    color: rgba(182, 178, 176, 0.8);
+  }
+
+  .string {
+    color: #64BCA9;
+  }
+
+  .constant.numeric {
+    color: #836FCD;
+  }
+
+  .constant.language {
+    color: #836FCD;
+  }
+
+  .constant.character,
+  .constant.other {
+    color: #836FCD;
+  }
+
+  .variable {
+  }
+
+  .keyword {
+    color: #FE337E;
+  }
+
+  .storage {
+    color: #FE337E;
+  }
+
+  .storage.type {
+    font-style: italic;
+    color: #87C2E3;
+  }
+
+  .entity.name.class {
+    text-decoration: underline;
+    color: #B8C53F;
+  }
+
+  .entity.other.inherited-class {
+    font-style: italic;
+    text-decoration: underline;
+    color: #B8C53F;
+  }
+
+  .entity.name.function {
+    color: #B8C53F;
+  }
+
+  .entity.name.instance {
+    color: #87C2E3;
+  }
+
+  .variable.parameter {
+    font-style: italic;
+    color: #E7AF28;
+  }
+
+  .entity.name.tag {
+    color: #FE337E;
+  }
+
+  .entity.other.attribute-name {
+    color: #B8C53F;
+  }
+
+  .support.function {
+    color: #87C2E3;
+  }
+
+  .support.constant {
+    color: #87C2E3;
+  }
+
+  .support.type,
+  .support.class {
+    font-style: italic;
+    color: #87C2E3;
+  }
+
+  .invalid {
+    color: #F8F8F0;
+    background-color: #FE337E;
+  }
+
+  .invalid.deprecated {
+    color: #F8F8F0;
+    background-color: #836FCD;
+  }
+
+  // Jade syntax
+  .class.jade {
+    color: #836FCD;
+  }
+}
