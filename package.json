@@ -1,12 +1,12 @@
 {
   "name": "cruncher",
   "theme": "syntax",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "Cruncher theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cruncher/cruncher-theme"
+    "url": "https://github.com/cruncher/cruncher-atom-theme"
   },
   "license": "MIT",
   "engines": {
