@@ -107,7 +107,7 @@
   }
 
   .entity.name.tag {
-    color: #FE337E;
+    color: #E7AF28;
   }
 
   .entity.other.attribute-name {
@@ -142,4 +142,17 @@
   .class.jade {
     color: #836FCD;
   }
+}
+
+.list-group li:not(.list-nested-item),
+.list-tree  li:not(.list-nested-item),
+.list-group li.list-nested-item > .list-item,
+.list-tree  li.list-nested-item > .list-item {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.list-group .selected:before,
+.list-tree  .selected:before {
+    height: 20px;
 }
