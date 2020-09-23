@@ -1,3 +1,3 @@
 # Cruncher theme
 
-Cruncher syntax theme for Atom.
+Cruncher syntax highlighting theme for Atom and Nova.

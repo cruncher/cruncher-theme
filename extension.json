@@ -1,0 +1,8 @@
+{
+    "identifier": "org.cruncher-theme",
+    "name": "Cruncher Theme",
+    "organization": "MyOrganization",
+    "description": "Lorem ipsum, dolor sit amet.",
+    "version": "1.0",
+    "categories": ["themes"]
+}
