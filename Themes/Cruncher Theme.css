@@ -239,8 +239,8 @@ definition.struct struct.name { color: red; }
 
 /* Members */
 definition.function { color: #837b76; }
-definition.property { color: red; }
-/*definition.property property.name { color: #f5a623; }*/
+definition.property { color: #288DC1; }
+definition.property property.name { color: #288DC1; }
 definition.method { color: #f5a623; }
 
 /*

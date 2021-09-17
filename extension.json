@@ -1,8 +1,8 @@
 {
-    "identifier": "org.cruncher-theme",
+    "identifier": "ch.cruncher.theme",
     "name": "Cruncher Theme",
-    "organization": "MyOrganization",
-    "description": "Lorem ipsum, dolor sit amet.",
+    "organization": "Cruncher",
+    "description": "Syntax highlighting inspired the Cruncher colour set",
     "version": "1.0",
     "categories": ["themes"]
 }
